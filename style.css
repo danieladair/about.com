@@ -117,13 +117,14 @@ article p {
         color: #fff;
         float: left;
         display: inline-block;
-        font-size: 50px;
-        margin-top: 10px;
-        margin-left: 10px;
+        font-size: 20px;
+        margin-top: 5px;
+        margin-left: 5px;
     }
 
     nav ul li a {
-        font-size: 50px;
+        display: inline-block;
+        font-size: 20px;
     }
 
     div h1 {
