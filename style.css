@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+html {
+    background-color: #003049;
+    font-family: 'Staatliches';
+}
+
+
+
+
+/* NAV */
+nav {
+    background-color: #000;
+    margin: 30px 30px;
+    border: 2px solid #000;
+    border-radius: 10px;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 10px 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 30px;
+    font-family: 'Staatliches';
+    margin-left: 30px;
+}
+
+nav ul li a:hover {
+    background-color: #fff;
+    display: inline-block;
+}
+
+
+.icon-home {
+    display: none;
+}
+
+/* BODY */
+
+div h1 {
+    text-align: center;
+    color: #fff;
+    margin: 20px 20px;
+    border-radius: 10px;
+    background-color: #000;
+}
+
+.lenguages-art {
+    display: inline-block;
+    color: #fff;
+    border-radius: 10px;
+    background-color: #000;
+    margin: 20px 20px;
+    align-items: center;
+    padding: 0 20px;
+}
+
+article h2 {
+    font-size: 30px;
+    margin: 10px;
+}
+
+article p {
+    font-size: 15px;
+    padding: 5px;
+}
+
+
+
+
+
+
+
+
+/* RESPONSIVE */
+
+@media screen and (max-width: 480px){
+    .icon-home {
+        color: #fff;
+        float: left;
+        display: inline-block;
+        font-size: 30px;
+        margin: 0 20px;
+    }
+
+    nav {
+        margin: 15px 15px;
+    }
+
+    nav ul li {
+        list-style: none;
+        display: inline-block;
+        margin: 5px 5px;
+    }
+
+    nav ul li a {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 720px){
+    nav {
+        padding: 10px 15px;
+        border-radius: 15px;
+    }
+
+    .icon-home {
+        color: #fff;
+        float: left;
+        display: inline-block;
+        font-size: 50px;
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+
+    nav ul li a {
+        font-size: 50px;
+    }
+
+    div h1 {
+        color: #fff;
+        font-size: 50px;
+        border-radius: 15px;
+        padding: 10px 10px;
+    }
+
+    .lenguages-art {
+        display: block;
+        color: #fff;
+        border-radius: 10px;
+        background-color: #000;
+        margin: 20px 15px;
+        align-items: center;
+        padding: 10px 20px;
+    }
+
+    div h2 {
+        font-size: 50px;
+    }
+
+    div p {
+        font-size: 30px;
+    }
+}
